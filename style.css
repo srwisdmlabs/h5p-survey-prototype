@@ -1,0 +1,10 @@
+#container{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.outter-wrapper{
+	background: #fff;
+	border: 1px solid #f9f9f9;
+	border-radius: 3px;
+}
