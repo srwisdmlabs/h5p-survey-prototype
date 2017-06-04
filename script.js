@@ -1,4 +1,11 @@
-function initialiseQuestionSet(){
+function setQuestions(){
+
+	var queSet = "<h3 class='question-set'>" + "question goes here"+ "</h3>";
+
+	$('.question-container').append(queSet);
+}
+
+function setOptions(){
 
 	var queSet = "<ul>";
 	queSet += "<li class='option-item'>" + "test option" +"</li>";
@@ -7,4 +14,5 @@ function initialiseQuestionSet(){
 	$('.options-container').append(queSet);
 }
 
-initialiseQuestionSet();
+setQuestions();
+setOptions();
