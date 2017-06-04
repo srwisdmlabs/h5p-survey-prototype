@@ -1,8 +1,10 @@
-// <div class="question-container">
-// 						<h2>Question goes here</h2>
-// 					</div>
-// 					<div class="options-container">
-// 						<div>
-// 							<p>ptions goes here</p>
-// 						</div>
-// 					</div>
+function initialiseQuestionSet(){
+
+	var queSet = "<ul>";
+	queSet += "<li class='option-item'>" + "test option" +"</li>";
+	queSet += "</ul>";
+
+	$('.options-container').append(queSet);
+}
+
+initialiseQuestionSet();

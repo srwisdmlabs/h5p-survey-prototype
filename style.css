@@ -1,10 +1,42 @@
 #container{
 	max-width: 1280px;
 	margin: 0 auto;
+	    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #fbfbfb; 
+    padding: 15px;
 }
 
 .outter-wrapper{
 	background: #fff;
-	border: 1px solid #f9f9f9;
+	border: 1px solid #eee;
 	border-radius: 3px;
+	    width: 100%;
+}
+
+.inner-wrapper{
+	padding: 15px;
+}
+
+ul{
+	padding: 0;
+}
+
+.option-item{
+
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 3px;
+	border: 1px solid #eee;
+	background-color: #fbfbfb;
+	transition: all 0.4s;
+	cursor: pointer;
+	list-style: none;
+}
+
+.option-item:hover{
+	background-color: #edd6e9;
+	border: 1px solid #
 }
